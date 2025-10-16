@@ -25,7 +25,7 @@ Estructura JSON:
   }
 }
 
-Se creó una interfaz User para representar la estructura del JSON.
+//Se creó una interfaz User para representar la estructura del JSON.
 
 El servicio user-service.ts usa HttpClient para realizar las peticiones a la API:
 getUsers(): Observable<User[]> {
@@ -33,3 +33,4 @@ getUsers(): Observable<User[]> {
 }
 El componente user-list obtiene y muestra los datos en una tabla.
 También permite filtrar y refrescar los usuarios.
+
