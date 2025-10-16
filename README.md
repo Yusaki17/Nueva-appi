@@ -25,8 +25,3 @@ Estructura JSON:
   }
 }
 }
-El componente user-list obtiene y muestra los datos en una tabla.
-También permite filtrar y refrescar los usuarios.
-
-
-
