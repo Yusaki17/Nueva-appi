@@ -24,4 +24,3 @@ Estructura JSON:
     "name": "Romaguera-Crona"
   }
 }
-}
