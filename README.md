@@ -24,14 +24,9 @@ Estructura JSON:
     "name": "Romaguera-Crona"
   }
 }
-
---Se creó una interfaz User para representar la estructura del JSON--
-
-El servicio user-service.ts usa HttpClient para realizar las peticiones a la API:
-getUsers(): Observable<User[]> {
-  return this.http.get<User[]>(this.apiUrl);
 }
 El componente user-list obtiene y muestra los datos en una tabla.
 También permite filtrar y refrescar los usuarios.
+
 
 
